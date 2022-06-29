@@ -1,6 +1,8 @@
 # stylelint-config-for-pros
 
-> CSS/SCSS settings for cool and aesthetic devs ;)
+```html
+<p>CSS/SCSS settings for cool and aesthetic devs ;)</p>
+```
 
 <img
   alt="Sass"
