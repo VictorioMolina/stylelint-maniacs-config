@@ -1,8 +1,15 @@
 # stylelint-config-for-pros
-CSS/SCSS settings for cool devs ;)
+
+> CSS/SCSS settings for cool and aesthetic devs ;)
 
 <img
   alt="Sass"
-  src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1024px-Sass_Logo_Color.svg.png"
+  src="https://blog.alexdevero.com/wp-content/uploads/2015/03/sass-logo.jpg"
+  width="250px"
+/>
+
+<img
+  alt="Stylelint"
+  src="https://repository-images.githubusercontent.com/49444538/a37a2780-61d9-11e9-9871-74a96fcfd466"
   width="250px"
 />
