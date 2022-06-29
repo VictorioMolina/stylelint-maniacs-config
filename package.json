@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "name": "stylelint-config-for-pros",
+  "version": "1.0.0",
+  "description": "Stylelint configuration for professional coders.",
+  "license": "MIT",
+  "author": {
+    "name": "Victorio Molina",
+    "email": "victoriomolinabermejo@gmail.com"
+  },
+  "scripts": {
+    "stylelint": "stylelint .",
+    "stylelint:fix": "stylelint --fix .",
+    "stylelint-check": "stylelint-config-prettier-check",
+    "watch-sass": "node-sass src/sass/main.scss src/css/styles.css --watch",
+    "compile-sass": "node-sass src/sass/main.scss src/css/styles.comp.css",
+    "prefix-css": "postcss --use autoprefixer -b 'last 5 versions' src/css/styles.comp.css -o src/css/styles.prefix.css",
+    "compress-css": "node-sass src/css/styles.prefix.css src/css/styles.css --output-style compressed",
+    "build-css": "npm-run-all compile-sass prefix-css compress-css"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "node-sass": "^7.0.1",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^9.1.0",
+    "prettier": "^2.7.1",
+    "stylelint": "^14.9.1",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard-scss": "^4.0.0",
+    "stylelint-prettier": "^2.0.0"
+  }
+}
